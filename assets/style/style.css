@@ -1,0 +1,45 @@
+/* BASIC STYLES HERE */
+
+
+.boxBorder {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 1em 2em;
+}
+
+.boxPadding {
+    position: relative;
+    padding: 1em;
+}
+
+.jumble-card {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 1em 2em;
+}
+
+.jumbleType {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 1em 2em;
+    margin-top: 3em;
+    min-height: 40dvh;
+}
+
+header>.jumble-card {
+    width: fit-content;
+    box-shadow: 10px -10px var(--bs-danger);
+}
+
+.jumbleCard {
+    position: relative;
+    padding: 2em;
+}
+
+#jumbleList {
+    max-height: 23dvh;
+    overflow-y: auto;
+}
